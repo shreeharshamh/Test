@@ -10,7 +10,7 @@ public class HashSetDemo {
         h.add("C");
         h.add("Z");
         h.add(null);
-        //duplicates are not allowed
+        //duplicates are not allowed        
         System.out.println("Adding element Z to HashSet : " + h.add("Z"));
         // ascending order arrangement
         System.out.println(h);
