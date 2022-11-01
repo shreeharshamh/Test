@@ -9,6 +9,10 @@ class A {
     }
 }
 class B extends A {
-    
+// we can create our own singleton classes and for that we've to use privat constructor and private static variable and public factory method.
 }
-public class Demo { }
+public class Demo { 
+    public static void main(String[] args) {
+        
+    }
+}
