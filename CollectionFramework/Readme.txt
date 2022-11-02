@@ -41,7 +41,9 @@ Collection Framework defines several classes and interface, which can be used to
 6. 9 key interfaces of collection
 ----------------------------------
 between interface and class, it is interface which provides much information and class is dummy thing which implements interfaces.
+
 6.1. Collection (I)
+-------------------
     > If we want to represent individual objects in a single entity, then we should go for Collection
     > Collection interface defines most common methods which are applicable for any collection object
     > Collection interface, in general, is considered as root interface of Collection Framework.
@@ -85,13 +87,17 @@ List                                Set
 -----------------
 To represent individual objects as single entity where duplicates are not allowed but should be inserted according to some sorting order the we should go for SortedSet.
 
+6.5 NavigableSet : defines several methods for navigation purposes.
+-----------------
 Collection -> Set (I) -> SortedSet                  1.2V
 Collection -> Set (I) -> SortedSet -> NavigableSet  1.6V
 Collection -> Set (I) -> SortedSet -> TreeSet       1.2V
 
-6.5 QUEUE (I)
+6.6 QUEUE (I)
 -------------
 If you want to represent group of individual object prior to processing, then you should go with Queue(I).
+(Before sending an email, saving the email id's inside queue)
+
 Collection -> Queue (I) -> PriorityQueue            1.5V
 Collection -> Queue (I) -> BlockingQueue            1.5V
 Collection -> Queue (I) -> BlockingQueue -> LinkedBlockingQueue
