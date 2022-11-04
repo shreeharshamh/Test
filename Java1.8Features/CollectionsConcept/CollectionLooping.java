@@ -50,22 +50,22 @@ public class CollectionLooping {
         System.out.println();
 
 
-        // 3. Print names using Advanced for loop
-        System.out.println("3. Print names using Advanced for loop");
+        // 8. Print names using Advanced for loop
+        System.out.println("8. Print names using Advanced for loop");
         for (String name : names) {
             System.out.println(name);
         }
         System.out.println();
 
-        // 4. Print names using for loop
-        System.out.println("4. Print names using for loop");
+        // 9. Print names using for loop
+        System.out.println("9. Print names using for loop");
         for (int i=0; i<names.size(); i++) {
             System.out.println(names.get(i));
         }
         System.out.println();
 
-        // 5. Print names using iterator()
-        System.out.println("5. Print names using iterator()");
+        // 10. Print names using iterator()
+        System.out.println("10. Print names using iterator()");
         Iterator<String> itr = names.iterator();
         while(itr.hasNext()) {
             System.out.println(itr.next());

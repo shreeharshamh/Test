@@ -25,7 +25,7 @@ public class ArrayListConcepts {
         System.out.println(setNumbersWithoutDuplicates);
         System.out.println(setWordsWithoutDuplicates);
 
-        List<Integer> num = numbers.stream().forEachOrdered(i -> i + 5).collect(Collectors.toList());
+        List<Integer> num = numbers.stream().forEach(i -> i + 5).collect(Collectors.toList());
 
         
     }
