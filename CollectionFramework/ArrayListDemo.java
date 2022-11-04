@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-class ArrayListDemo {
+public class ArrayListDemo {
     public static void main(String[] args) {
         // creating empty ArrayList object, with initial capacity/default capacity=10
         List<Object> list = new ArrayList<>();
