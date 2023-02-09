@@ -1,4 +1,3 @@
-// package Test.Examples;
 import java.lang.Math;
 
 public class MathRandomExample {
