@@ -1,4 +1,4 @@
-// package Test.Java8Features.ThreeCursors;
+package Test.Java8Features.ThreeCursors;
 
 import java.util.Enumeration;
 import java.util.Vector;

@@ -1,8 +1,8 @@
+package Test.Java8Features.ThreeCursors;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
-// package Test.Java8Features.ThreeCursors;
 
 public class IteratorCursor {
    public static void main(String[] args) {
