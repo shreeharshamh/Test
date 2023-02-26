@@ -14,8 +14,10 @@ public class LinkedListDemo {
         ll.add(1,99);
         ll.add(9, 100);
         System.out.println(ll);
+ 
         TreeSet<Integer> t1 = new TreeSet<>(ll);
         System.out.println(t1);
+ 
         TreeSet<Integer> t = new TreeSet<>(new MyComparator());
         for(int i=0; i<=10; i++) {
             t.add(i);
