@@ -1,18 +1,20 @@
+// package Test.Java1.8Features.ThreeCursors
+
 import java.util.Enumeration;
 import java.util.Vector;
 
-class EnumerationDemo {
+public class EnumerationDemo {
     public static void main(String[] args) {
-        Vector<Integer> v = new Vector<>();
+        Vector<Integer> vectorObject = new Vector<>();
         for(int i=0; i<=10; i++) {
-            v.addElement(i);
+            vectorObject.add(i);
         }
-        Enumeration<Integer> e = v.elements();
-        while(e.hasMoreElements()) {
-            Integer I = (Integer) e.nextElement();
-            if(I%2 == 0) {
-                System.out.print(I + " ");
-            }
+        System.out.println(vectorObject);
+
+        Enumeration<Integer> enumerationObject = vectorObject.elements();
+        while(enumerationObject.hasMoreElements()) {
+            Integer I = (Integer) enumerationObject.nextElement();
+            if(I % 2 == 0) System.out.print(I + " ");
         }
     }
 }
