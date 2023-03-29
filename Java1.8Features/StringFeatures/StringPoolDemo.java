@@ -31,7 +31,7 @@ public class StringPoolDemo
 
          /*
           * when the string is created using new keyword, the jvm checks the string pool, if the string is already
-          * present in the string pool, the the jvm allots the space in the heap instead of pool
+          * present in the string pool, the the jvm allots the space in the heap along with SCP
           * 
           */
 
