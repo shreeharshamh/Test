@@ -16,6 +16,11 @@
     }
 
     public static void main(String[] args) {
-        ImmutabilityDemo t1 = new ImmutabilityDemo(0)        
+        ImmutabilityDemo t1 = new ImmutabilityDemo(20);
+        ImmutabilityDemo t2 = t1.modify(25);
+        ImmutabilityDemo t3 = t1.modify(20);
+
+        System.out.println(t1 == t2);   // false
+        System.out.println(t1 == t3);   // true
     }
  }
